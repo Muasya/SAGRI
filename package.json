@@ -1,0 +1,22 @@
+{
+  "name": "icorehub",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "sudo pm2 start ./bin/www.js -p 3000"
+  },
+  "dependencies": {
+    "body-parser": "1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "2.6.9",
+    "express": "~4.16.0",
+    "hbs": "~4.0.4",
+    "http-errors": "~1.6.2",
+    "method-override": "~3.0.0",
+    "morgan": "~1.9.0",
+    "mongoose": "~5.5.2",
+    "nodemon": "1.18.5",
+    "pm2": "^3.5.1"
+
+  }
+}
